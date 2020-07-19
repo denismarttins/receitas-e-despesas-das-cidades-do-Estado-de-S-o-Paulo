@@ -1,0 +1,25 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "receitas e despesas dos municípios do Estado de São Paulo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webscraping",
+    "nodejs",
+    "data",
+    "search"
+  ],
+  "author": "Denis Martins",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^4.0.0",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2"
+  }
+}
